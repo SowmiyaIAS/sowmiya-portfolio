@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sowmiya's Professional Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f9;
+            display: flex;
+        }
+        nav {
+            width: 250px;
+            background-color: #333;
+            color: white;
+            height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+            position: fixed;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            margin-bottom: 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+        main {
+            margin-left: 270px;
+            padding: 20px;
+        }
+        img {
+            float: right;
+            border-radius: 10px;
+            margin-left: 20px;
+            width: 180px;
+        }
+        section {
+            margin-bottom: 30px;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        ul, table {
+            margin-left: 20px;
+        }
+        table, th, td {
+            border: 1px solid #333;
+            border-collapse: collapse;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h2>Sowmiya's Portfolio</h2>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Leadership & Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="/mnt/data/Sowmiya_Passportpic.jpg" alt="Sowmiya's Photo">
+            <p>Hello! I'm Sowmiya, an enthusiastic software developer and  with a strong interest in VLSI design and full-stack development. With a solid foundation in C++, Java, HTML, and CSS, I'm passionate about creating impactful projects and leading initiatives. My dedication to continuous learning and problem-solving drives me to excel in both technical and leadership roles.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming: C++, Java, Python, HTML, CSS</li>
+                <li>Technical: VLSI Design, IoT Systems, Industrial Automation</li>
+                <li>Soft Skills: Leadership, Communication, Coordination</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <table>
+                <tr><th>Project Name</th><th>Description</th></tr>
+                <tr><td>Production of Electric Current using Indian Railways</td><td>Innovative approach to harness energy from train movement.</td></tr>
+                <tr><td>Smart Motion Activated Appliance Control System</td><td>Automates appliances using motion detection.</td></tr>
+                <tr><td>Rural Animal Monitoring System</td><td>IoT-based solution for tracking animal movements.</td></tr>
+            </table>
+        </section>
+        <section id="achievements">
+            <h2>Leadership & Achievements</h2>
+            <ul>
+                <li>Secretary, IEI Student Chapters - Effective event organization and management.</li>
+                <li>Student Development Cell - KALAM Club Cluster Coordinator.</li>
+                <li>Leadership in international conferences like, Sathyabama MUN 2025 and TedX Events.</li>
+                <li>Recipient of the IEI Best Student Award.</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label>Name:</label><input type="text" name="name" required><br>
+                <label>Email:</label><input type="email" name="email" required><br>
+                <label>Message:</label><textarea name="message" rows="4" cols="30" required></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
